@@ -11,6 +11,6 @@ Ini adalah skema docker compose yang bisa digunakan untuk menjalankan laravel. B
 2. Download atau clone repository ini.
 3. Tempatkan isi folder hasil cloning pada root folder aplikasi Laravel.
 4. Pastikan nama database, username, dan password pada file .env & docker-compose.yml sama persis.
-5. Buka terminal dan jalan perintah berikut:
-   ```json docker compose up -d ```
-6. Setelah container berjalan, buka browser dan akses http:localhost:8080 untuk membuka aplikasi dan http:localhost:8081 untuk membuka phpmyadmin.
+5. Buka terminal dan jalan perintah
+   ```json docker compose up -d ```.
+6. Setelah container berjalan, buka browser dan akses ```json http:localhost:8080``` untuk membuka aplikasi dan ```json http:localhost:8081``` untuk membuka phpmyadmin.
